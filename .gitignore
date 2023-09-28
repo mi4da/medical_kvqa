@@ -1,0 +1,73 @@
+# Ignore images, pt files, xlsx files, npy files, etc.
+**/*.jpg
+**/*.jpeg
+**/*.png
+**/*.gif
+**/*.bmp
+**/*.tif
+**/*.tiff
+**/*.pt
+**/*.xlsx
+**/*.npy
+**/*.zip
+# Ignore compiled Python files
+# Compiled Python files
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+venv/
+env/
+.env
+
+# Compiled source
+*.o
+*.lo
+*.la
+*.so
+*.pyd
+*.dll
+*.class
+
+# Logs and databases
+*.log
+*.sqlite3
+*.db
+
+# macOS thumbnail files
+.DS_Store
+
+# System and IDE files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*.bak
+*.cache
+*.DS_Store
+*.sublime-*
+
+# Jupyter Notebook files
+.ipynb_checkpoints/
+
+# Model checkpoints and saved models
+model_checkpoints/
+saved_models/
+*.h5
+*.hdf5
+*.pth
+*.pt
+
+# TensorBoard logs
+logs/
+tensorboard/
+
+# Data files
+data/
+datasets/**/*.jpg
+datasets/**/*.png
+*.csv
+*.np
